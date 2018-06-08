@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_shape"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/nodeWidgetDeleteButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:padding="10dp"
+                app:srcCompat="@drawable/delete_button_icon" />
+
+            <TextView
+                android:id="@+id/nodeDateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_toStartOf="@+id/nodeWidgetDeleteButton"
+                android:layout_weight="0.41"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Date"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/nodeTextTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_marginTop="-2dp"
+            android:layout_weight="0"
+            android:background="@drawable/bottom_shape"
+            android:focusable="false"
+            android:padding="13dp"
+            android:text="NodeText"
+            android:textColor="@color/dark"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/numberofnote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="42dp"
+            android:text="423542545"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

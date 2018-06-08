@@ -1,0 +1,4 @@
+#Fri Jun 08 17:47:57 ALMT 2018
+base.0=/Users/eltn/Downloads/Notes/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

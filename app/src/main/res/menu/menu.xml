@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/allColor"
+        android:icon="@drawable/allcolor_icon"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/redColor"
+        android:icon="@drawable/red_icon"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/blueColor"
+        android:icon="@drawable/blue_icon"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/lightBlueColor"
+        android:icon="@drawable/lightblue_icon"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/yellowColor"
+        android:icon="@drawable/yellow_icon"
+        app:showAsAction="always"
+        />
+
+
+
+    <item
+        android:id="@+id/addbutton"
+        android:icon="@drawable/add_button_icon"
+        android:title="Add contact"
+        app:showAsAction="always"/>
+
+</menu>
